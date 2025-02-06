@@ -7,7 +7,9 @@
     "index.cds"
   ],
   "dependencies": {
+    "@cap-js/hana": "^1",
     "@sap/cds": ">=5",
+    "@sap/xssec": "^4.2.7",
     "express": "^4.17.1"
   },
   "cds": {
@@ -19,5 +21,8 @@
       },
       "db": { "kind": "sql" }
     }
+  },
+  "scripts": {
+    "start": "cds-serve"
   }
 }
